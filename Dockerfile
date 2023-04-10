@@ -1,3 +1,3 @@
 FROM busybox
-ADD script.sh /script.sh
+ADD test.sh script.sh /
 CMD ["sh", "/script.sh"]
