@@ -23,7 +23,6 @@ jobs:
     container:
       image: ghcr.io/adamcooke/actions-playground:commit-${{ github.sha }}
       credentials:
-        registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
     steps:
